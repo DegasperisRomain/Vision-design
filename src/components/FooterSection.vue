@@ -24,6 +24,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     ul {
         padding-left: 0;
