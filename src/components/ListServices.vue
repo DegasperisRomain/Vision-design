@@ -59,7 +59,7 @@ import BlockService from "./BlockService.vue";
 
     p {
         color: rgba(255, 255, 255, 0.30);
-        font-family: "Neue Montreal";
+        font-family: 'Neue Montreal', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;

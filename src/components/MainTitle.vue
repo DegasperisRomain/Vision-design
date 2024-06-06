@@ -27,7 +27,7 @@ h1 {
 
     span:nth-child(2) {
         color: rgba(255, 255, 255, 0.30);
-        font-family: "Neue Montreal";
+        font-family: 'Neue Montreal', sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
