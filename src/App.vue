@@ -1,18 +1,20 @@
 <template>
   <section class="first-section">
     <div class="left">
-      <HeaderApp />
-      <MainTitle />
-      <FooterSection />
+      <HeaderApp data-aos="fade-down" data-aos-once="true"></HeaderApp>
+      <MainTitle data-aos="fade-right" data-aos-once="true"></MainTitle>
+      <FooterSection data-aos="fade-up" data-aos-once="true"></FooterSection>
     </div>
-    <img src="./assets/images/image-home.png" class="img-section" alt="Sketch d'une maison d'architecte">
+    <img data-aos="fade-left" data-aos-once="true" src="./assets/images/image-home.png" class="img-section"
+      alt="Sketch d'une maison d'architecte">
   </section>
 
   <section class="second-section">
-    <img src="./assets/images/image-section2.png" class="img-section" alt="Sketch d'une maison d'architecte">
+    <img data-aos="fade-right" data-aos-once="true" src="./assets/images/image-section2.png" class="img-section"
+      alt="Sketch d'une maison d'architecte">
 
     <div class="right">
-      <TitleSection :title="'Notre Histoire'" :subTitle="'1984'">
+      <TitleSection :title="'Notre Histoire'" :subTitle="'1984'" data-aos="fade-left" data-aos-once="true">
 
       </TitleSection>
       <GridContent />

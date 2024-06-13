@@ -5,6 +5,8 @@ import { createPinia } from 'pinia';
 
 import App from './App.vue'
 import router from './router'
+import AOS from 'aos'
+
 import VueFeather from 'vue-feather'
 
 
@@ -15,7 +17,7 @@ const pinia = createPinia();
 
 app.use(router)
 app.use(pinia)
-
+app.use(AOS)
 app.component(VueFeather.name, VueFeather)
 
 app.mount('#app')
