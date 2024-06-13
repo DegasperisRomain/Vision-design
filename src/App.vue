@@ -236,7 +236,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   #app .first-section {
     .left {
       height: 100vh;
