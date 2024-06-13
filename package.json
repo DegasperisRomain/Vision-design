@@ -11,8 +11,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "feather-icons": "^4.29.2",
     "pinia": "^2.1.7",
+    "save": "^2.9.0",
     "vue": "^3.4.21",
     "vue-feather": "^2.0.0",
     "vue-router": "^4.3.0"
