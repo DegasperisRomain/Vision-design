@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <BlockService>
+        <BlockService data-aos="fade-right" data-aos-once="true">
             <template #title>
                 <h6>Residential Design</h6>
             </template>
@@ -11,7 +11,7 @@
             </template>
         </BlockService>
 
-        <BlockService>
+        <BlockService data-aos="fade-right" data-aos-delay="300" data-aos-once="true">
             <template #title>
                 <h6>Office Design</h6>
             </template>
@@ -22,7 +22,7 @@
             </template>
         </BlockService>
 
-        <BlockService>
+        <BlockService data-aos="fade-right" data-aos-delay="600" data-aos-once="true">
             <template #title>
                 <h6>Architectural House</h6>
             </template>

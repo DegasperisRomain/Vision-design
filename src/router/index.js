@@ -16,8 +16,8 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   AOS.init({
-    duration: 1000,
-    offset: 500,
+    duration: 1500,
+    offset: 1000,
   });
   next();
 });

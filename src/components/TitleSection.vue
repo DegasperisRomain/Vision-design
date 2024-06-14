@@ -1,5 +1,5 @@
 <template>
-    <h1 class="title-section">
+    <h1 class="title-section" data-aos="fade-right" data-aos-once="true">
         <span>{{ subTitle }}</span>
         {{ title }}
     </h1>

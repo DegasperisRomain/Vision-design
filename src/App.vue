@@ -1,12 +1,12 @@
 <template>
   <section class="first-section">
     <div class="left">
-      <HeaderApp data-aos="fade-down" data-aos-once="true"></HeaderApp>
-      <MainTitle data-aos="fade-right" data-aos-once="true"></MainTitle>
-      <FooterSection data-aos="fade-up" data-aos-once="true"></FooterSection>
+      <HeaderApp data-aos="fade-down" data-aos-offset="500" data-aos-once="true"></HeaderApp>
+      <MainTitle data-aos="fade-right" data-aos-offset="500" data-aos-once="true"></MainTitle>
+      <FooterSection data-aos="fade-up" data-aos-offset="0" data-aos-once="true"></FooterSection>
     </div>
-    <img data-aos="fade-left" data-aos-once="true" src="./assets/images/image-home.png" class="img-section"
-      alt="Sketch d'une maison d'architecte">
+    <img data-aos="fade-left" data-aos-once="true" data-aos-offset="500" src="./assets/images/image-home.png"
+      class="img-section" alt="Sketch d'une maison d'architecte">
   </section>
 
   <section class="second-section">
@@ -15,7 +15,6 @@
 
     <div class="right">
       <TitleSection :title="'Notre Histoire'" :subTitle="'1984'" data-aos="fade-left" data-aos-once="true">
-
       </TitleSection>
       <GridContent />
     </div>
@@ -30,7 +29,7 @@
     <GridGalery />
   </section>
 
-  <footer>
+  <footer data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
     <FooterApp />
   </footer>
 

@@ -1,13 +1,16 @@
 <template>
-<div class="parent">
-    <div class="div1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ipsum neque. In placerat vitae massa a sodales. Nam et efficitur enim, vel porta est. Proin sit amet libero ante. Duis consectetur mollis leo ut semper. In quis mollis diam. Cras non ex id quam egestas luctus.</div>
-    <div class="div2">
-        <img src="@/assets/images/rectangle-7.png" alt="">
+    <div class="parent">
+        <div class="div1" data-aos="fade-left" data-aos-once="true">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Praesent sed ipsum neque. In placerat vitae massa a sodales. Nam et efficitur enim, vel porta est.
+            Proin sit amet libero ante. Duis consectetur mollis leo ut semper. In quis mollis diam. Cras non ex id quam
+            egestas luctus.</div>
+        <div class="div2" data-aos="fade-right" data-aos-once="true">
+            <img src="@/assets/images/rectangle-7.png" alt="">
+        </div>
+        <div class="div3" data-aos="fade-up" data-aos-once="true">
+            <img src="@/assets/images/rectangle-8.png" alt="">
+        </div>
     </div>
-    <div class="div3">
-        <img src="@/assets/images/rectangle-8.png" alt="">
-    </div>
-</div>
 </template>
 
 <script setup>
@@ -34,6 +37,12 @@
     font-weight: 400;
     line-height: normal;
 }
-.div2 { grid-area: 1 / 2 / 2 / 3; }
-.div3 { grid-area: 2 / 1 / 3 / 2; }
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
 </style>

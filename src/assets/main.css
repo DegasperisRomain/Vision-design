@@ -18,3 +18,7 @@ a,
     color: #fff;
   }
 }
+
+img {
+  mix-blend-mode: luminosity;
+}
